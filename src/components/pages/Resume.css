@@ -1,0 +1,16 @@
+.resume-head {
+    display: flex;
+    /*flex-direction: column;*/
+    justify-content: space-between;
+    text-align: center;
+    padding: 2rem;
+}
+
+.resume-contact {
+    padding: 0 2rem;
+}
+
+.contact-item {
+    display: flex;
+    justify-content: space-between;
+}

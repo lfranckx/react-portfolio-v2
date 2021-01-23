@@ -16,15 +16,15 @@ export default class HeroSection extends Component {
     render() {
         return (
             <div className='hero-container'>
-                <video src='/videos/video-3.mp4' autoPlay loop muted />
+                <video src='/videos/video-5.mp4' autoPlay loop muted />
                 <h1>I am Lachlan, a
                     <Typical
                         className={"typical"}
-                        steps={['React Developer', 2500, 'Full-stack Engineer', 2500, 'Web Designer', 2500]}
+                        steps={['React Developer.', 2500, 'Full-stack Engineer.', 2500, 'Web Designer.', 2500]}
                         loop={Infinity}
                     />
                 </h1>
-                <h2>I build web applications with a focus on the end user</h2>
+                <h2>I build web applications with a focus on the end user.</h2>
 
                 <div className='hero-btns'>
                     <Button

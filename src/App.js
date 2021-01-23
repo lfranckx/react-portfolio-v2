@@ -13,13 +13,15 @@ function App() {
     <>
       <Router>
         <Navbar />
-        <Switch>
-          <Route path='/' exact component={Home} />
-          <Route path='/services' component={Skills} />
-          <Route path='/services' component={Portfolio} />
-          <Route path='/products' component={Resume} />
-          <Route path='/sign-up' component={Contact} />
-        </Switch>
+        <main>
+          <Switch>
+            <Route path='/' exact component={Home} />
+            <Route path='/skills' component={Skills} />
+            <Route path='/portfolio' component={Portfolio} />
+            <Route path='/resume' component={Resume} />
+            <Route path='/contact' component={Contact} />
+          </Switch>
+        </main>
       </Router>
     </>
   );
