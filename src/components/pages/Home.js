@@ -2,6 +2,7 @@ import React from 'react';
 import '../../App.css';
 
 import HeroSection from '../HeroSection';
+import About from './About';
 import Skills from './Skills';
 import Footer from '../Footer';
 
@@ -10,6 +11,7 @@ function Home() {
     <>
       <HeroSection />
       <Skills />
+      <About />
       <Footer />
     </>
   );

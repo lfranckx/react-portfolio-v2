@@ -3,11 +3,12 @@
     /*flex-direction: column;*/
     justify-content: space-between;
     text-align: center;
-    padding: 2rem;
+    padding: 2rem 2rem 0;
 }
 
 .resume-contact {
-    padding: 0 2rem;
+    padding: 2rem;
+    border-bottom: solid 1px grey;
 }
 
 .contact-item {

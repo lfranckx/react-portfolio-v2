@@ -53,3 +53,16 @@ h2 {
 .skills-container p {
   margin: 5px;
 }
+
+.about {
+  padding: 2rem;
+  background-color: #242424;
+  color: #fff;
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+
+.about h3 {
+  text-align: center;
+  font-size: 2rem;
+}

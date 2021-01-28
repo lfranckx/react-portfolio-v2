@@ -32,6 +32,9 @@ export default class extends Component {
                         </a>
                     </div>
                 </div>
+                <div className={'resume-projects'}>
+                    
+                </div>
             </>
         )
     }
