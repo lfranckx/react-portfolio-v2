@@ -51,6 +51,44 @@ video {
   margin-left: 4px;
 }
 
+
+.skills-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.skills-container div {
+  width: 25%;
+}
+
+.skill-icon {
+  font-size: 2rem;
+  margin-bottom: .4rem;
+}
+
+.skills-container h3 {
+  font-size: 1.6rem;
+  margin-bottom: .4rem;
+}
+
+.skills-container p {
+  margin: 5px;
+}
+
+.about {
+  padding: 2rem;
+  background-color: #242424;
+  color: #fff;
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+
+.about h3 {
+  text-align: center;
+  font-size: 1.6rem;
+}
+
 @media screen and (max-width: 960px) {
   .hero-container > h1 {
     font-size: 70px;
