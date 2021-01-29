@@ -9,9 +9,10 @@ export default function About() {
                 <div className={'narrow'}>
                     <h2>"The best preparation for tomorrow is doing your best today."</h2>
                     <div className={'top-line'}></div>
-                    <div className={'flex'}>
-                        <div>
-                            <img src={''}
+                    <div className={'about-container'}>
+                        <div id={'img-container'}>
+                            <img src={'/images/img-1.jpg'} alt={'playing_the_drums'}
+                                className={'about-img img-1'}/>
                         </div>
                         <section id={'about'}>
                             <p>
