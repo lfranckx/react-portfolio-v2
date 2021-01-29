@@ -27,15 +27,18 @@ export default function Resume()  {
     return (
             <div className={'resume-page'}>
             <div className={'resume-container'}>
-                <section className={'resume-contact section'}>
-                <div className={'contact-item pad-b-2'}>
-                    <div className={'flex'}>
-                        <button className={'arrow'} onClick={() => toggleVisibility('section1')}>{arrow}</button>
-                        <h2>&nbsp; Lachlan Franckx</h2>
-                    </div>
-                    <h3>Full-stack Developer</h3>
+                <div className={'download-resume'}>
+                    <a href={'/Docs/Web Dev Resume - Blue.pdf'} download={'/Docs/Web Dev Resume - Blue.pdf'}>Download Copy</a>
                 </div>
-                    <div id={'section1'} className={'pad-u-2'}>
+                <section className={'resume-contact section'}>
+                    <div className={'contact-item'}>
+                        <div className={'flex'}>
+                            <button className={'arrow'} onClick={() => toggleVisibility('section1')}>{arrow}</button>
+                            <h2>&nbsp; Lachlan Franckx</h2>
+                        </div>
+                        <h3>Full-stack Developer</h3>
+                    </div>
+                    <div id={'section1'} className={'pad-u-2 pad-s-2'}>
                         <div>
                             <div className={'contact-item'}>
                                 <p>Los Angeles, CA</p>
@@ -58,11 +61,11 @@ export default function Resume()  {
                 </section>
 
                 <section className={'resume-skills section'}>
-                    <div className={'flex pad-b-2'}>
+                    <div className={'flex'}>
                         <button className={'arrow'} onClick={() => toggleVisibility('section2')}>{arrow}</button>
                         <h3>&nbsp; Skills</h3>
                     </div>
-                    <div id={'section2'} className={'pad-u-2'}>
+                    <div id={'section2'} className={'pad-u-2 pad-s-2'}>
                         <ul id={'accordion'}>
                             <li>JavaScript</li>
                             <li>React</li>
@@ -88,11 +91,11 @@ export default function Resume()  {
                 </section>
 
                 <section className={'resume-projects section'}>
-                    <div className={'flex pad-b-2'}>
+                    <div className={'flex'}>
                         <button className={'arrow'} onClick={() => toggleVisibility('section3')}>{arrow}</button>
                         <h3>&nbsp; Full-Stack Applications</h3>
                     </div>
-                    <div id={'section3'} className={'pad-u-2'}>
+                    <div id={'section3'} className={'pad-u-2 pad-s-2'}>
                         <div className={'travelog'}>
                             <a className={'project-name'} href={'/'}>Travelog</a> | <a href={'/'}>Github</a>
                             <ul>
@@ -114,12 +117,12 @@ export default function Resume()  {
                 </section>
 
                 <section className={'client-projects section'}>
-                    <div className={'flex pad-b-2'}>
+                    <div className={'flex'}>
                         <button className={'arrow'} onClick={() => toggleVisibility('section4')}>{arrow}</button>
                         <h3>&nbsp; Professional Client Projects</h3>
                     </div>
 
-                    <div  id={'section4'} className={'omg-artistry pad-u-2'}>
+                    <div  id={'section4'} className={'omg-artistry pad-u-2 pad-s-2'}>
                         <a className={'project-name'} href={'/'}>OMG Artistry</a> | <a href={'/'}>Github</a>
                         <ul>
                             <li>Restructured the layout of a Shopify store making it more easy for customers to navigate through the site.</li>
@@ -130,11 +133,11 @@ export default function Resume()  {
                 </section>
 
                 <section className={'resume-education section'}>
-                    <div className={'flex pad-b-2'}>
+                    <div className={'flex'}>
                         <button className={'arrow'} onClick={() => toggleVisibility('section5')}>{arrow}</button>
                         <h3>&nbsp; Education</h3>
                     </div>
-                    <div id={'section5'} className={'pad-u-2'}>
+                    <div id={'section5'} className={'pad-u-2 pad-s-2'}>
                         <h4>Bloc</h4>
                         <h4>Web Development Career Training</h4>
                         <ul>
@@ -147,11 +150,11 @@ export default function Resume()  {
                 </section>
 
                 <section className={'resume-experience section'}>
-                    <div className={'flex pad-b-2'}>
+                    <div className={'flex'}>
                         <button className={'arrow'} onClick={() => toggleVisibility('section6')}>{arrow}</button>
                         <h3>&nbsp; Experience</h3>
                     </div>
-                    <div id={'section6'} className={'pad-u-2'}>
+                    <div id={'section6'} className={'pad-u-2 pad-s-2'}>
                         <div>
                             <h4>Freelance</h4>
                             <ul>

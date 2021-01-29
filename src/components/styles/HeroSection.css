@@ -47,10 +47,15 @@ video {
   margin: 6px;
 }
 
+.hero-btns .btn:hover > #book {
+  transition: all 0.3s ease-out;
+  transition: 250ms;
+  color: #242424;
+}
+
 .fa-play-circle {
   margin-left: 4px;
 }
-
 
 .skills-container {
   display: flex;
