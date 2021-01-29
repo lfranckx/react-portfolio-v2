@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../App.css';
+import '../styles/App.css';
 import '../styles/HeroSection.css';
 
 import Footer from '../Footer';
@@ -22,7 +22,7 @@ export default function Home() {
 
             <div className='hero-btns'>
                 <Button
-                    className='btns'
+                    className='btns view-work'
                     buttonStyle='btn--outline'
                     buttonSize='btn--large'
                 >
