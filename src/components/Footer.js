@@ -1,6 +1,5 @@
 import React from 'react';
 import './Footer.css';
-import { Button } from './Button';
 import { Link } from 'react-router-dom';
 
 function Footer() {
@@ -11,50 +10,50 @@ function Footer() {
         <i className="fas fa-paper-plane"></i>&nbsp; Email
       </Link>
 
-      <section class='social-media'>
-          <div class='social-icons'>
+      <section className='social-media'>
+          <div className='social-icons'>
             <Link
-              class='social-icon-link facebook'
+              className='social-icon-link facebook'
               to='/'
               target='_blank'
               aria-label='Facebook'
             >
-              <i class='fab fa-facebook-f icon' />
+              <i className='fab fa-facebook-f icon' />
             </Link>
             <Link
-              class='social-icon-link instagram icon'
+              className='social-icon-link instagram icon'
               to='/'
               target='_blank'
               aria-label='Instagram'
             >
-              <i class='fab fa-instagram icon' />
+              <i className='fab fa-instagram icon' />
             </Link>
             <Link
-              class='social-icon-link youtube'
+              className='social-icon-link youtube'
               to='/'
               target='_blank'
               aria-label='Youtube'
             >
-              <i class='fab fa-youtube icon' />
+              <i className='fab fa-youtube icon' />
             </Link>
             <Link
-              class='social-icon-link twitter'
+              className='social-icon-link twitter'
               to='/'
               target='_blank'
               aria-label='Twitter'
             >
-              <i class='fab fa-twitter icon' />
+              <i className='fab fa-twitter icon' />
             </Link>
             <Link
-              class='social-icon-link twitter'
+              className='social-icon-link twitter'
               to='/'
               target='_blank'
               aria-label='LinkedIn'
             >
-              <i class='fab fa-linkedin icon' />
+              <i className='fab fa-linkedin icon' />
             </Link>
             <Link
-                class='social-icon-link github'
+                className='social-icon-link github'
                 to='/'
                 target='_blank'
                 aria-label='LinkedIn'
