@@ -56,6 +56,32 @@ export default function Home() {
                     <p className={'skills-desc'}>Making the user experience as good as the code that drives it.</p>
                 </div>
             </div>
+            {/*<div className={'skills-container'}>*/}
+            {/*    <div>*/}
+            {/*        <i className="fas fa-users skill-icon"></i>*/}
+            {/*        <h3>Clients</h3>*/}
+            {/*        <p className={'skills-desc'}>3</p>*/}
+            {/*    </div>*/}
+            {/*    <div>*/}
+            {/*        <i className="fas fa-globe-americas skill-icon"></i>*/}
+            {/*        <h3>Deployed Projects</h3>*/}
+            {/*        <p className={'skills-desc'}>6</p>*/}
+            {/*    </div>*/}
+            {/*    <div>*/}
+            {/*        <i className="fas fa-code-branch skill-icon"></i>*/}
+            {/*        <h3>Github Contributions</h3>*/}
+            {/*        <p className={'skills-desc'}>500+</p>*/}
+            {/*    </div>*/}
+            {/*    <div>*/}
+            {/*        <i className="fas fa-laptop-house skill-icon"></i>*/}
+            {/*        <h3>Small Projeects</h3>*/}
+            {/*        <p className={'skills-desc'}>16</p>*/}
+            {/*    </div>*/}
+            {/*</div>*/}
+        </section>
+        <section className={'container'}>
+            <h2>My Creative Process</h2>
+            <p>I start with figuring out what the customer wants their application to do and how they want it to look.</p>
         </section>
       <Footer />
     </>
