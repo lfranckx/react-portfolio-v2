@@ -1,0 +1,38 @@
+
+
+/*.timeline {*/
+/*    max-width: 1080px;*/
+/*}*/
+
+/*.timeline ul li {*/
+/*    position: relative;*/
+/*    width: 6px;*/
+/*    margin: 0 auto 2rem;*/
+/*}*/
+
+/*.timeline ul li:nth-child(odd) div {*/
+/*    left: 40px;*/
+/*}*/
+
+/*.card {*/
+/*    padding: 2rem;*/
+/*    !*border: solid .2rem #242424;*!*/
+/*    margin-bottom: 1rem;*/
+/*    background: aliceblue;*/
+/*    box-shadow: 0 4px 12px #4fe6ff;*/
+/*}*/
+
+/*.card i, .card h3, .card p {*/
+/*    color: #242424;*/
+/*}*/
+
+/*!*.bar-left {*!*/
+/*!*    border-left: solid #fff 2rem;*!*/
+/*!*}*!*/
+
+/*!*.bar-right {*!*/
+/*!*    border-right: solid #fff 2rem;*!*/
+/*!*}*!*/
+
+
+

@@ -1,8 +1,9 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import './components/styles/App.css';
-import Home from './components/pages/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import './styles/App.css';
+
+import Navbar from './components/Navbar';
+import Home from './components/pages/Home/Home';
 import Portfolio from './components/pages/Portfolio';
 import Resume from './components/pages/Resume';
 import Contact from './components/pages/Contact';
